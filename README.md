@@ -1,7 +1,5 @@
 # minigame 2
 ## Devlog
-Write your Devlog here.
-
 ## 1
 I encountered an issue involving an "if" statement. Because the health value changed before the conditional check, the color didn't update in the correct order, and the treasure chest disappeared prematurely. I resolved this by checking the updated health value and adjusting the color accordingly; I also ensured that the chest only disappears when the health drops to zero.
 
